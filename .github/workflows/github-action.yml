@@ -1,0 +1,9 @@
+name: Run shell command 
+on: [Push]
+
+jobs:
+    run-shell-command:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Echo a string
+              run: echo "this is my first yaml pieplien"
