@@ -1,4 +1,4 @@
-name: OWSAP ZAP integration with github action
+name: OWSAP ZAP integration with github actions
 
 on: [push]
 
